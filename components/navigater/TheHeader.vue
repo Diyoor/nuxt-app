@@ -23,9 +23,11 @@
             <h1>APP NAME</h1>
           </div>
           <ul>
-            <li><nuxt-link class="app-bar--list" to="/">Home</nuxt-link></li>
             <li>
-              <nuxt-link class="app-bar--list" to="/menu1">Shop</nuxt-link>
+              <nuxt-link class="app-bar--list" to="/">Home</nuxt-link>
+            </li>
+            <li>
+              <nuxt-link class="app-bar--list" to="/shop">Shop</nuxt-link>
             </li>
             <li>
               <nuxt-link class="app-bar--list" to="/menu2">Blogs</nuxt-link>
@@ -45,6 +47,7 @@
 
 <style scoped>
 .helper-section {
+  padding: 5px 20px;
   height: 30px;
   background-color: #222831;
   display: flex;
@@ -87,19 +90,12 @@ a {
   font-weight: bold;
 }
 
-.app-bar--list::after {
-  border-bottom: #2b95ff 1px solid;
-  content: '';
-  display: block;
-  width: 0;
-  height: 1px;
-  background: #2b95ff;
-  transition: width 0.3s;
+.nuxt-link-exact-active {
+  color: #222831;
 }
 
-.app-bar--list:hover::after {
-  border-bottom: #2b95ff 1px solid;
-  width: 100%;
+.nuxt-link-active {
+  color: aqua;
 }
 
 h1 {
