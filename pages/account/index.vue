@@ -1,5 +1,5 @@
 <template>
   <div>
-    <h1>The Helper</h1>
+    <h1>Account</h1>
   </div>
 </template>

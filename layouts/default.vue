@@ -1,6 +1,5 @@
 <template>
   <div>
-    <TheHelper />
     <TheHeader />
     <Nuxt />
     <TheFooter />
