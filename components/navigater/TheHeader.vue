@@ -24,19 +24,16 @@
           </div>
           <ul>
             <li>
-              <nuxt-link class="app-bar--list" to="/">Home</nuxt-link>
-            </li>
-            <li>
               <nuxt-link class="app-bar--list" to="/shop">Shop</nuxt-link>
             </li>
             <li>
-              <nuxt-link class="app-bar--list" to="/menu2">Blogs</nuxt-link>
+              <nuxt-link class="app-bar--list" to="/blogs">Blogs</nuxt-link>
             </li>
             <li>
-              <nuxt-link class="app-bar--list" to="/menu3">About</nuxt-link>
+              <nuxt-link class="app-bar--list" to="/about">About</nuxt-link>
             </li>
             <li>
-              <nuxt-link class="app-bar--list" to="/menu4">Contact</nuxt-link>
+              <nuxt-link class="app-bar--list" to="/contact">Contact</nuxt-link>
             </li>
           </ul>
         </div>
@@ -47,11 +44,11 @@
 
 <style scoped>
 .helper-section {
-  padding: 5px 20px;
+  padding: 5px 16.5%;
   height: 30px;
   background-color: #222831;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   color: aliceblue;
 }
@@ -78,8 +75,10 @@ a {
 
 .app-bar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 0px 16.5%;
+  box-shadow: 1px 1px 4px #222831;
 }
 
 .app-bar--list {
@@ -90,7 +89,7 @@ a {
   font-weight: bold;
 }
 
-.nuxt-link-exact-active {
+.nuxt-link-exact {
   color: #222831;
 }
 

@@ -69,8 +69,14 @@ ul {
 }
 
 li {
+  cursor: pointer;
   list-style: none;
   margin: 0px 5px;
   font-size: 14px;
+}
+
+li:hover {
+  text-decoration: underline;
+  font-weight: bold;
 }
 </style>
